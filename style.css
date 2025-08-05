@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url('assets/kitchen.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+
+.game-container {
+  margin-top: 50px;
+}
+
+.chef {
+  width: 150px;
+}
+
+.answers button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+#cfo {
+  width: 200px;
+  margin-top: 20px;
+}
