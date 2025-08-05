@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Challenge the CFO – Kitchen Edition</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <img src="assets/chef.png" alt="Chef Avatar" class="chef" />
+    <h1>Challenge the CFO</h1>
+    <p id="question">What’s the most cost-effective way to reduce food waste?</p>
+    <div class="answers">
+      <button onclick="checkAnswer('A')">A. Compost everything</button>
+      <button onclick="checkAnswer('B')">B. Track inventory and adjust orders</button>
+      <button onclick="checkAnswer('C')">C. Fire the sous chef</button>
+    </div>
+    <img src="assets/cfo-neutral.png" alt="CFO Reaction" id="cfo" />
+    <audio id="background-music" src="assets/jazz.mp3" autoplay loop></audio>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
